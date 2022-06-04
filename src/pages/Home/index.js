@@ -26,8 +26,7 @@ import {
 } from './styles'
 // import { onAuthorizeSlackHandler } from '/helpers'
 import { getUserRequest } from '../../store/modules/user/actions'
-import { motion } from 'framer-motion'
-
+import { motion, AnimatePresence } from 'framer-motion/dist/framer-motion'
 const CustomTooltip = withStyles(() => ({
   tooltip: {
     backgroundColor: '#a585d1',
