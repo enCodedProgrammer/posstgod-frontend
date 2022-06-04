@@ -26,7 +26,7 @@ import {
 } from './styles'
 // import { onAuthorizeSlackHandler } from '/helpers'
 import { getUserRequest } from '../../store/modules/user/actions'
-import { motion, AnimatePresence } from 'framer-motion/dist/framer-motion'
+import { motion } from 'framer-motion'
 
 const CustomTooltip = withStyles(() => ({
   tooltip: {
