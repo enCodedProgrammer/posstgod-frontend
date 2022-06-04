@@ -16,7 +16,7 @@ import WSInput from '../../components/WSInput';
 import ChannelInput from '../../components/Channel-Input';
 import Textarea from '../../components/Textarea'
 import Button from '../../components/Button';
-import { Accordion, AccordionSummary, AccordionDetails, Typography } from '@mui/material/';
+import { Accordion, AccordionSummary, AccordionDetails, Typography } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import './styles.css'
 import {
