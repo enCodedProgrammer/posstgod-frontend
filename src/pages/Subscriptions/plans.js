@@ -1,0 +1,32 @@
+export const plans = [
+  {
+    id: '6178180123ff2cca12472640',
+    name: 'Dreamer',
+    price: 3,
+    members: '5',
+    messages: 100,
+    annotations: 30,
+    task: 30,
+    polls: 30,
+  },
+  {
+    id: '617817d223ff2cca1247263e',
+    name: 'Warrior',
+    price: 6,
+    members: 'Up to 50',
+    messages: 250,
+    annotations: 40,
+    task: 40,
+    polls: 40,
+  },
+  {
+    id: '6178172e23ff2cca1247263b',
+    name: 'Boss',
+    price: 9,
+    members: 'Up to 500',
+    messages: 500,
+    annotations: 50,
+    task: 50,
+    polls: 50,
+  },
+]
