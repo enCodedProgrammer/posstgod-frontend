@@ -68,7 +68,6 @@ export default function Home() {
     const params = new URLSearchParams(location.search)
     const token = params.get('token')
 
-    
     if (token) {
       dispatch(getUserRequest())
     }
